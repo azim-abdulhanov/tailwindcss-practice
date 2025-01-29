@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tailwind CSS</title>
+	<link rel="stylesheet" href="./css/main.css">
+</head>
+<body class="bg-[#EEF2F5]">
+
+	<!-- HEADER START -->
+	<header class="header py-[9px] bg-white">
+		<div class="max-w-[1140px] w-full m-auto px-[15px]">
+			<div class='flex justify-between items-center'>
+				<nav class="flex items-center gap-x-[50px]">
+					<a class="flex items-center gap-x-[5px]" href="index.html">
+						<img src="./images/logo-image-1.svg" width="53" height="16" alt="Logo image one">
+						<div class="flex border-2 relative border-solid border-[#093845] px-[2px]">
+							<img src="./images/logo-image-2.svg" width="40" height="15" alt="Logo image two">
+							<span className="absolute -right-4">_</span>
+						</div>
+					</a>
+	
+					<ul class='flex items-center gap-[40px]'>
+						<li class=''>
+							<a class='text-[#343434] font-medium text-[15px]' href="#">Loyiha haqida</a>
+						</li>
+						<li class=''>
+							<a class='text-[#343434] font-medium text-[15px]' href="#">Dasturlash tillari</a>
+						</li>
+						<li class=''>
+							<a class='text-[#343434] font-medium text-[15px]' href="#">Narxlar</a>
+						</li>
+					</ul>
+				</nav>
+
+				<div class='flex items-center gap-[31px]'>
+					<div class="flex items-center gap-[26px]">
+						<button class="cursor-pointer relative before:content-[''] before:absolute before:-left-[13px] before:top-1/2 before:-translate-y-1/2 before:h-full before:w-[1px] before:bg-gray-300">
+							<img src="./images/search.svg" width="24" height="24" alt="Search icon">
+						</button>
+						<button class="cursor-pointer relative before:content-[''] before:absolute before:-left-[13px] before:top-1/2 before:-translate-y-1/2 before:h-full before:w-[1px] before:bg-gray-300">
+							<img src="./images/bell.svg" width="24" height="24" alt="Bell icon">
+						</button>
+					</div>
+					<div class="flex items-center gap-[51px]">
+						<div class="flex items-center gap-[13px]">
+							<img class="rounded-[10px] flex overflow-hidden" src="./images/image.png" width="32" height='32' alt="avatar image">
+							<div class='flex flex-col'>
+								<span class="text-[#343434] text-[14px] font-medium">Muhammad Jumayev</span>
+								<span class='text-[#ABABAB] text-[10px] font-medium'>Tarif: 6 OY | 09.07.2019</span>
+							</div>
+						</div>
+	
+						<button class="cursor-pointer">
+							<img src="./images/menu.svg" alt="Menu icon">
+						</button>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</header>
+	<!-- HEADER END -->
+	
+</body>
+</html>
