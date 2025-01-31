@@ -614,14 +614,14 @@
   .gap-\[9px\] {
     gap: 9px;
   }
-  .gap-x-\[6px\] {
-    column-gap: 6px;
-  }
   .gap-x-\[50px\] {
     column-gap: 50px;
   }
   .gap-x-\[5px\] {
     column-gap: 5px;
+  }
+  .gap-x-\[6px\] {
+    column-gap: 6px;
   }
   .overflow-hidden {
     overflow: hidden;
@@ -647,9 +647,6 @@
   }
   .bg-\[\#093845\] {
     background-color: #093845;
-  }
-  .bg-\[\#EEF2F5\] {
-    background-color: #EEF2F5;
   }
   .bg-white {
     background-color: var(--color-white);
@@ -845,6 +842,9 @@
       grid-template-columns: repeat(3, minmax(0, 1fr));
     }
   }
+}
+html {
+  scroll-behavior: smooth;
 }
 body {
   background-color: #EEF2F5;
